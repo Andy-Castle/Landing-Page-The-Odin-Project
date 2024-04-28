@@ -110,3 +110,50 @@ button {
 }
 
 /* Aqui termina el hero */
+
+/* Aqui inicia la seccion de some random information */
+
+.random-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.random-information h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 60px;
+}
+
+.squares {
+  display: flex;
+  /* gap: 120px; */
+}
+
+.square {
+  border: #3882f6 5px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.square1,
+.square2,
+.square3,
+.square4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 60px;
+}
+
+.square1,
+.square2,
+.square3,
+.square4 p {
+  width: 150px;
+  text-align: center;
+}
