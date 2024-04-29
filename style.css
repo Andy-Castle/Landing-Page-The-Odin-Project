@@ -129,7 +129,6 @@ button {
 
 .squares {
   display: flex;
-  /* gap: 120px; */
 }
 
 .square {
@@ -156,4 +155,89 @@ button {
 .square4 p {
   width: 150px;
   text-align: center;
+}
+
+/* Aqui inicia thor */
+
+.thor {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  margin-top: 80px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.text1 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.reference {
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: end;
+}
+
+/* Aqui incia el call in action */
+
+.call-action {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-action-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+  background: #3882f6;
+  height: 180px;
+  width: 1000px;
+  border-radius: 15px;
+  gap: 120px;
+}
+
+.texts1 {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.texts2 {
+  font-size: 17px;
+}
+
+.button {
+  display: flex;
+  margin-top: 12px;
+}
+
+.button button {
+  cursor: pointer;
+  border: 3px solid #f9faf8;
+  color: #f9faf8;
+  background: transparent;
+  padding: 6px 35px;
+  font-size: 22px;
+  border-radius: 6px;
+}
+
+/* Aqui iria el footer */
+
+footer {
+  height: 95px;
+  color: #f9faf8;
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
